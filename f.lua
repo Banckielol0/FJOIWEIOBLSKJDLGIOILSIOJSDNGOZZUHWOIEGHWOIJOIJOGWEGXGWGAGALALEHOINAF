@@ -1,5 +1,4 @@
 print("loaded")
-local key = key1
 local http_request = http_request;
 if syn then
 	http_request = syn.request
@@ -134,9 +133,8 @@ if data.StatusCode == 200 then
 	local response = data.Body;
 	if response == hash(key) then
 		print("whitlisted")
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/jannnes124125jahkc/loader-OUO-G-G-/main/cool.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jannnes124125jahkc/loader-OUO-G-G-/main/cool.lua", true))()
 	else 
 	   game.Players.LocalPlayer:Kick("Do not try to use a script that is not yours! If you will try to buy this for real you will need to explain why you tried to use a cracked version")
 	end
 end
-
