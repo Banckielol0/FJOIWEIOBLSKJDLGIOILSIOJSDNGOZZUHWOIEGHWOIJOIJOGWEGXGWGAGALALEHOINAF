@@ -1,3 +1,4 @@
+locak key = key1
 print("loaded")
 local http_request = http_request;
 if syn then
